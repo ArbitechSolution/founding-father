@@ -1,0 +1,29 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+margin-top: 150px;
+}
+
+.inCard{
+    height: 250px;
+    width: 500px;
+    background-color: #1B1F26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inCard div{
+    border: none;
+    outline: none;
+    background-color: #1B1F26;
+color: silver;
+font-size: 24px;
+    /* border-bottom: royalblue 3px solid; */
+}
+.cardContainer button{
+    background-color: royalblue;
+    border: none;
+    outline: none;
+}
